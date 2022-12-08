@@ -2,8 +2,7 @@
 
 /**
  *  main - Entry point
- *  puts prints the string to the terminal
- *  Return: Always 0 (Success) 
+ *  puts prints the string to the terminal 
  */
 
 int main(void)
