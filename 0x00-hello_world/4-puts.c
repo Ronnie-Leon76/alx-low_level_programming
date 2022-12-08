@@ -1,14 +1,9 @@
 #include <stdio.h>
 
 /**
- *
  *  main - Entry point
- *
  *  puts prints the string to the terminal
- *
- *  Return: Always 0 (Success)
- *
- * 
+ *  Return: Always 0 (Success) 
  */
 
 int main(void)
