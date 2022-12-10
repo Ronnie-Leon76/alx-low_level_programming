@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
  * preprocessor directives - include stdlib and time
- * main - generates a random number and prints the number and whether it is positive, zero or negative
+ * main - prints the number and whether it is positive, zero or negative
  * returns zero
- * */
+ */
 int main(void)
 {
 	int n;
