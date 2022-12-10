@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * preprocessor directives - include stdlib and time
- * main - prints the number and whether it is positive, zero or negative
- * returns zero
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
