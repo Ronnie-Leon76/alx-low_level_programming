@@ -2,8 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * preprocessor directives - include stdlib and time 
- * main - generates a random number and returns is_positive or is_zero or is_negative
+ * preprocessor directives - include stdlib and time
+ * main - generates a random number and prints the number and whether it is positive, zero or negative
+ * returns zero
  * */
 int main(void)
 {
@@ -11,11 +12,11 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if(n>0)
-		printf("%d is positive\n",n);
-	else if(n==0)
-		printf("%d is zero\n",n);
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n == 0)
+		printf("%d is zero\n", n);
 	else
-		printf("%d is negative\n",n);
+		printf("%d is negative\n", n);
 	return (0);
 }
