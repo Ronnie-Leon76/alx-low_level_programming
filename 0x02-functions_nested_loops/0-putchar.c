@@ -2,7 +2,7 @@
 #include "main.h"
 
 /*
- * main - Entry File 
+ * main - Entry point
  *
  * Return: Always (0) Sucess
  */
