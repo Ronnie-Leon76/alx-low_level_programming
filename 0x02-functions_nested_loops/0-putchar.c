@@ -2,7 +2,7 @@
 #include "main.h"
 
 /*
- * main - Entry file
+ * main - calls _putchar() function defined in main.h 
  *
  * Return: Always (0) Sucess
  */
