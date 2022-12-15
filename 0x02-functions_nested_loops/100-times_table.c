@@ -31,11 +31,11 @@ void print_times_table(int n)
 				}
 				else if (k < 100)
 				{
-					printf(",  %d", k);
+					printf(",   %d", k);
 				}
 				else 
 				{
-					printf(",  %d", k);
+					printf(", %d", k);
 				}
 			}
 			printf("\n");
