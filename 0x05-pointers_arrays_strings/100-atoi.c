@@ -28,9 +28,9 @@ int _atoi(char *s)
 		}
 	}
 	if ((num * sign) > INT_MAX)
-		return INT_MAX;
+		return (INT_MAX);
 	else if ((num * sign) < INT_MIN)
-		return INT_MIN;
+		return (INT_MIN);
 	else
 		return (num * sign);
 }
