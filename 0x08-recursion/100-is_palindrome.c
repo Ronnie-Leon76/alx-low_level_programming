@@ -20,7 +20,20 @@ int check_palindrome(char *s, int i, int j)
  * @s: string
  *
  * Return: 1 if s is a palindrome, otherwise 0
+ *
  */
+/**
+ * _strlen_recursion - returns the length of a string
+ * @s: string
+ *
+ * Return: length of s
+ */
+int _strlen_recursion(char *s)
+{
+	if (*s == '\0')
+		return (0);
+	return (1 + _strlen_recursion(s + 1));
+}
 int is_palindrome(char *s)
 {
 	int len = _strlen_recursion(s);
