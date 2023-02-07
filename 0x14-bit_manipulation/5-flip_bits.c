@@ -3,10 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * flip_bits - returns the number of bits you would need to flip to get from one number to another
+ * flip_bits - returns the number of bits to flip number
  * @n: number to be checked
  * @m: number to be checked
- * Return: the number of bits you would need to flip to get from one number to another
+ * Return: the number of bits you would need to flip
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
